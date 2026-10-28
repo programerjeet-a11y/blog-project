@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Stories, ideas, and inspiration for everyday life."
+    />
+    <title>Blog Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-white text-dark">
+    <header class="border-bottom">
+      <nav
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 py-3"
+        aria-label="Main navigation"
+      >
+        <a
+          class="navbar-brand fw-bold fs-4 mb-0"
+          href="#"
+          aria-label="Blogosphere home"
+        >
+          <span class="text-warning">B</span>logosphere
+        </a>
+        <div
+          class="d-flex flex-wrap justify-content-center align-items-center gap-3 gap-lg-4"
+        >
+          <a class="link-dark link-underline-opacity-0 fw-medium" href="#"
+            >Home</a
+          >
+          <a class="link-secondary link-underline-opacity-0" href="#popular"
+            >Explore</a
+          >
+          <a class="link-secondary link-underline-opacity-0" href="#trending"
+            >Stories</a
+          >
+          <a class="link-secondary link-underline-opacity-0" href="#about"
+            >About</a
+          >
+        </div>
+        <a class="btn btn-dark btn-sm rounded-pill px-3" href="#newsletter"
+          >Subscribe <span aria-hidden="true">→</span></a
+        >
+      </nav>
+    </header>
+
+    <main>
+      <section class="container py-5" aria-labelledby="featured-title">
+        <div class="row align-items-start g-4 g-lg-5">
+          <div class="col-lg-7">
+            <p class="text-uppercase text-warning fw-bold small mb-2">
+              Stories that stay with you
+            </p>
+            <h1 id="featured-title" class="display-5 fw-bold mb-3">
+              The latest ideas and inspiration, all in one place.
+            </h1>
+            <p class="text-secondary mb-4">
+              Thoughtful reads on the people, places, and moments that make
+              everyday life extraordinary.
+            </p>
+            <article>
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-3 mb-3"
+                  src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                  alt="Friends sharing a meal around a table"
+                />
+                <span class="badge text-bg-warning mb-2"
+                  >Food &amp; Living</span
+                >
+                <h2 class="h3 fw-bold">
+                  A slower table: finding joy in the meals we share
+                </h2>
+              </a>
+              <p class="text-secondary">
+                Good food is about more than what is on the plate. It is the
+                stories, laughter, and little rituals that bring us together.
+              </p>
+              <div class="d-flex align-items-center gap-2 small text-secondary">
+                <span class="fw-semibold text-dark">Maya Bennett</span
+                ><span aria-hidden="true">·</span><span>June 12, 2025</span
+                ><span aria-hidden="true">·</span><span>6 min read</span>
+              </div>
+            </article>
+          </div>
+
+          <aside class="col-lg-5" aria-label="More recent stories">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <h2 class="h5 fw-bold mb-0">Latest stories</h2>
+              <a class="small link-dark" href="#popular"
+                >View all <span aria-hidden="true">→</span></a
+              >
+            </div>
+            <div class="d-flex flex-column gap-3">
+              <article class="row g-3 align-items-center">
+                <div class="col-5">
+                  <a href="#" aria-label="Read The colours of a creative life">
+                    <img
+                      class="img-fluid w-100 rounded-2"
+                      src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
+                      alt="Colourful art supplies on a desk"
+                    />
+                  </a>
+                </div>
+                <div class="col-7">
+                  <span class="small text-warning fw-semibold">Creativity</span>
+                  <h3 class="h6 fw-bold mt-1 mb-1">
+                    <a class="link-dark link-underline-opacity-0" href="#"
+                      >The colours of a creative life</a
+                    >
+                  </h3>
+                  <p class="small text-secondary mb-0">
+                    Simple ways to make room for more creativity every day.
+                  </p>
+                </div>
+              </article>
+              <article class="row g-3 align-items-center">
+                <div class="col-5">
+                  <a href="#" aria-label="Read Finding your own kind of quiet">
+                    <img
+                      class="img-fluid w-100 rounded-2"
+                      src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
+                      alt="A quiet forest path in soft light"
+                    />
+                  </a>
+                </div>
+                <div class="col-7">
+                  <span class="small text-warning fw-semibold">Wellbeing</span>
+                  <h3 class="h6 fw-bold mt-1 mb-1">
+                    <a class="link-dark link-underline-opacity-0" href="#"
+                      >Finding your own kind of quiet</a
+                    >
+                  </h3>
+                  <p class="small text-secondary mb-0">
+                    A little space to slow down can change everything.
+                  </p>
+                </div>
+              </article>
+              <article class="row g-3 align-items-center">
+                <div class="col-5">
+                  <a href="#" aria-label="Read Places that feel like home">
+                    <img
+                      class="img-fluid w-100 rounded-2"
+                      src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
+                      alt="A warm, sunlit living room"
+                    />
+                  </a>
+                </div>
+                <div class="col-7">
+                  <span class="small text-warning fw-semibold">Spaces</span>
+                  <h3 class="h6 fw-bold mt-1 mb-1">
+                    <a class="link-dark link-underline-opacity-0" href="#"
+                      >Places that feel like home</a
+                    >
+                  </h3>
+                  <p class="small text-secondary mb-0">
+                    The small details that make a space your own.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section
+        id="newsletter"
+        class="container pb-5"
+        aria-labelledby="newsletter-title"
+      >
+        <div class="position-relative overflow-hidden rounded-3">
+          <img
+            class="img-fluid w-100"
+            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&amp;fit=crop&amp;w=1600&amp;q=80"
+            alt="A bright, welcoming creative workspace"
+          />
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"
+          ></div>
+          <div
+            class="position-absolute top-50 start-0 translate-middle-y text-white p-3 p-md-5 col-11 col-md-8 col-lg-7"
+          >
+            <p class="text-uppercase small fw-bold mb-2">
+              A good read, delivered
+            </p>
+            <h2 id="newsletter-title" class="h2 fw-bold">
+              Make space for a little inspiration.
+            </h2>
+            <p class="mb-3">
+              Get our favourite stories and ideas in your inbox each week.
+            </p>
+            <a
+              class="btn btn-warning btn-sm rounded-pill px-3"
+              href="mailto:hello@blogosphere.example"
+              >Join the newsletter <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="popular"
+        class="container py-5 border-top"
+        aria-labelledby="popular-title"
+      >
+        <div class="d-flex justify-content-between align-items-end mb-4">
+          <div>
+            <p class="text-uppercase text-warning fw-bold small mb-1">
+              Handpicked for you
+            </p>
+            <h2 id="popular-title" class="h2 fw-bold mb-0">Popular</h2>
+          </div>
+          <a
+            class="btn btn-outline-dark btn-sm rounded-pill px-3"
+            href="#trending"
+            >See all <span aria-hidden="true">→</span></a
+          >
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <article class="h-100">
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="A colourful, freshly prepared meal"
+                />
+                <span class="small text-warning fw-semibold"
+                  >Food &amp; Living</span
+                >
+                <h3 class="h5 fw-bold mt-2">
+                  The little kitchen habits that make a big difference
+                </h3>
+              </a>
+              <p class="small text-secondary">
+                A few thoughtful changes can make cooking feel easier, calmer,
+                and a lot more fun.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Maya Bennett <span aria-hidden="true">·</span> 5 min read
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="h-100">
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="Friends enjoying time together outdoors"
+                />
+                <span class="small text-warning fw-semibold">People</span>
+                <h3 class="h5 fw-bold mt-2">
+                  The friendships that grow with us
+                </h3>
+              </a>
+              <p class="small text-secondary">
+                Making time for the people who make every season a little
+                brighter.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Oliver James <span aria-hidden="true">·</span> 7 min read
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="h-100">
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="A bright, thoughtfully designed workspace"
+                />
+                <span class="small text-warning fw-semibold"
+                  >Work &amp; Ideas</span
+                >
+                <h3 class="h5 fw-bold mt-2">A more human way to work</h3>
+              </a>
+              <p class="small text-secondary">
+                Fresh perspectives on finding focus and doing meaningful work.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Alex Morgan <span aria-hidden="true">·</span> 4 min read
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="h-100">
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="A group of friends making memories together"
+                />
+                <span class="small text-warning fw-semibold">People</span>
+                <h3 class="h5 fw-bold mt-2">
+                  Good company, wherever you find it
+                </h3>
+              </a>
+              <p class="small text-secondary">
+                Why the best moments are often the ones we never planned.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Maya Bennett <span aria-hidden="true">·</span> 6 min read
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="h-100">
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="Fresh ingredients ready to be cooked"
+                />
+                <span class="small text-warning fw-semibold"
+                  >Food &amp; Living</span
+                >
+                <h3 class="h5 fw-bold mt-2">
+                  A fresh take on everyday favourites
+                </h3>
+              </a>
+              <p class="small text-secondary">
+                Easy, delicious ideas for bringing a little more colour to the
+                table.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Sam Rivera <span aria-hidden="true">·</span> 5 min read
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article class="h-100">
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="A calm and colourful shared studio"
+                />
+                <span class="small text-warning fw-semibold">Creativity</span>
+                <h3 class="h5 fw-bold mt-2">
+                  Make a little room for new ideas
+                </h3>
+              </a>
+              <p class="small text-secondary">
+                Small ways to welcome curiosity into your everyday routine.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Alex Morgan <span aria-hidden="true">·</span> 3 min read
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="trending"
+        class="container py-5 border-top"
+        aria-labelledby="trending-title"
+      >
+        <div class="d-flex justify-content-between align-items-end mb-4">
+          <div>
+            <p class="text-uppercase text-warning fw-bold small mb-1">
+              Worth a closer look
+            </p>
+            <h2 id="trending-title" class="h2 fw-bold mb-0">Trending</h2>
+          </div>
+          <a
+            class="btn btn-outline-dark btn-sm rounded-pill px-3"
+            href="#popular"
+            >See all <span aria-hidden="true">→</span></a
+          >
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <article>
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="A warmly lit neighbourhood restaurant"
+                />
+                <span class="small text-warning fw-semibold">Places</span>
+                <h3 class="h5 fw-bold mt-2">
+                  A neighbourhood worth getting lost in
+                </h3>
+              </a>
+              <p class="small text-secondary">
+                The independent spots and familiar faces that make a place feel
+                special.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Oliver James <span aria-hidden="true">·</span> 8 min read
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article>
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="A nourishing meal made with fresh ingredients"
+                />
+                <span class="small text-warning fw-semibold"
+                  >Food &amp; Living</span
+                >
+                <h3 class="h5 fw-bold mt-2">
+                  A better kind of everyday cooking
+                </h3>
+              </a>
+              <p class="small text-secondary">
+                No fuss, no rules: just good food and a fresh point of view.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Sam Rivera <span aria-hidden="true">·</span> 6 min read
+              </p>
+            </article>
+          </div>
+          <div class="col">
+            <article>
+              <a href="#" class="text-decoration-none text-dark">
+                <img
+                  class="img-fluid w-100 rounded-2 mb-3"
+                  src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                  alt="Friends gathered around a restaurant table"
+                />
+                <span class="small text-warning fw-semibold">People</span>
+                <h3 class="h5 fw-bold mt-2">
+                  The magic of making time for each other
+                </h3>
+              </a>
+              <p class="small text-secondary">
+                A reminder that showing up is sometimes the best thing we can
+                do.
+              </p>
+              <p class="small text-secondary mb-0">
+                By Maya Bennett <span aria-hidden="true">·</span> 5 min read
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="about" class="bg-black text-white mt-4">
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-12 col-md-5 col-lg-4">
+            <a class="text-white text-decoration-none fw-bold fs-4" href="#">
+              <span class="text-warning">B</span>logosphere
+            </a>
+            <p class="text-white-50 mt-3 mb-0">
+              Stories and ideas for a more curious, connected everyday.
+            </p>
+          </div>
+          <div class="col-6 col-md-3 col-lg-2">
+            <h2 class="h6 fw-bold">Explore</h2>
+            <ul class="list-unstyled d-grid gap-2 small">
+              <li>
+                <a class="link-light link-underline-opacity-0" href="#popular"
+                  >Popular</a
+                >
+              </li>
+              <li>
+                <a class="link-light link-underline-opacity-0" href="#trending"
+                  >Trending</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link-light link-underline-opacity-0"
+                  href="#newsletter"
+                  >Newsletter</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3">
+            <h2 class="h6 fw-bold">Our stories</h2>
+            <ul class="list-unstyled d-grid gap-2 small">
+              <li>
+                <a class="link-light link-underline-opacity-0" href="#popular"
+                  >Food &amp; Living</a
+                >
+              </li>
+              <li>
+                <a class="link-light link-underline-opacity-0" href="#popular"
+                  >People &amp; Places</a
+                >
+              </li>
+              <li>
+                <a class="link-light link-underline-opacity-0" href="#popular"
+                  >Work &amp; Ideas</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-3">
+            <h2 class="h6 fw-bold">Stay in the loop</h2>
+            <p class="small text-white-50">
+              A little inspiration, straight to your inbox.
+            </p>
+            <a
+              class="btn btn-warning btn-sm rounded-pill px-3"
+              href="mailto:hello@blogosphere.example"
+              >Get in touch</a
+            >
+          </div>
+        </div>
+        <div
+          class="border-top border-secondary mt-4 pt-3 d-flex flex-column flex-sm-row justify-content-between gap-2 small text-white-50"
+        >
+          <span>© 2025 Blogosphere. All rights reserved.</span>
+          <div class="d-flex gap-3">
+            <a class="link-light link-underline-opacity-0" href="#">Privacy</a>
+            <a class="link-light link-underline-opacity-0" href="#">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
